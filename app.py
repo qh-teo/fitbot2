@@ -83,7 +83,7 @@ def second_menu_keyboard():
 
 ####### Messages ############
 def main_menu_message():
-    return 'Choose the option in main menu:'
+    return 'Choose the option:'
 
 
 def first_menu_message():
