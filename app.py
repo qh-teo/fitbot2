@@ -66,16 +66,16 @@ def main_menu_keyboard():
 
 
 def first_menu_keyboard():
-    keyboard = [[InlineKeyboardButton('Submenu 1-1', callback_data='m1_1')],
-              [InlineKeyboardButton('Submenu 1-2', callback_data='m1_2')],
-              [InlineKeyboardButton('Main menu', callback_data='main')]]
+    keyboard = [[InlineKeyboardButton('Running', callback_data='m1_1')],
+              [InlineKeyboardButton('Push Ups', callback_data='m1_2')],
+              [InlineKeyboardButton('Back', callback_data='main')]]
     return InlineKeyboardMarkup(keyboard)
 
 
 def second_menu_keyboard():
   keyboard = [[InlineKeyboardButton('Submenu 2-1', callback_data='m2_1')],
               [InlineKeyboardButton('Submenu 2-2', callback_data='m2_2')],
-              [InlineKeyboardButton('Main menu', callback_data='main')]]
+              [InlineKeyboardButton('Back', callback_data='main')]]
   return InlineKeyboardMarkup(keyboard)
 
 
