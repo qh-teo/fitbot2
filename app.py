@@ -59,7 +59,7 @@ def second_submenu(bot, update):
 
 ################ Keyboard #######################
 def main_menu_keyboard():
-    keyboard = [[InlineKeyboardButton("Option 1", callback_data='m1'),
+    keyboard = [[InlineKeyboardButton("Exercise", callback_data='m1'),
                  InlineKeyboardButton("Option 2", callback_data='m2')],
                 [InlineKeyboardButton("Option 3", callback_data='m3')]]
     return InlineKeyboardMarkup(keyboard)
