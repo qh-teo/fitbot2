@@ -106,7 +106,6 @@ def error(update, context):
 
 
 def main():
-
     updater.dispatcher.add_handler(CommandHandler('start', start))
     updater.dispatcher.add_handler(CallbackQueryHandler(main_menu, pattern='main'))
     updater.dispatcher.add_handler(CallbackQueryHandler(first_menu, pattern='m1'))
