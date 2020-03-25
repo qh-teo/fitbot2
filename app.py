@@ -87,7 +87,7 @@ def main_menu_message():
 
 
 def first_menu_message():
-    return 'Choose the submenu in first menu:'
+    return 'Select exercise:'
 
 
 def second_menu_message():
